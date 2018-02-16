@@ -1,0 +1,36 @@
+angular CLI
+-------------
+npm install -g @angular/cli - to manage the package and all eaisly
+ng new "applicationName" - 
+
+karma.conf - for running unit testing(module testing)
+protractor.conf - end to end testing
+tsconfig - for type script
+tlint - maitaining code redability standards and rules 
+
+ng serve - converting all the files to normal javascript file
+when ever we do some chnage it will automatically compile to javascript
+http://localhost:4200/
+
+angular js	angular
+---------	--------
+module		module
+component	component
+directives	directives
+service		service
+
+Angular
+core layer - irrespective of platform(node js , native script)
+view layer - 
+data flows only one direction.
+any change in dom data updated with event.
+
+in Angular
+a class become a component when we use @component decorator
+a calss become a module whene we use @ngmodule	decorator
+
+angular JS is depended on browser
+
+
+ng g c component/productList
+ng g s app
